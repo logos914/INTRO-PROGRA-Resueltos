@@ -6,11 +6,15 @@
 #pantalla el resultado de evaluar las siguientes fórmulas:
 #d)modulo de raiz de x-5
 
+def moduloDe(x):
+    resultadoDelModulo = x
+    if (x < 0):
+        resultadoDelModulo *= (-1)
+    return resultadoDelModulo
 
 def moduloDeRaizCuadradaDeEquisMenosCinco(x):
     resultado=(x-5)**(1/2)
-    if resultado<0:
-        resultado *= -1
+    resultado = moduloDe(resultado)
     return resultado
 
 
