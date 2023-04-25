@@ -32,7 +32,7 @@ for carac in cbu:
     if posicion <= 3:
         banco = banco + carac
     
-    if posicion > 4 and posicion <= 7:
+    if posicion >= 4 and posicion <= 7:
         sucursal = sucursal + carac
     
     if posicion >= 15 and posicion <= 21:
