@@ -1,3 +1,11 @@
+"""
+Ejercicio 1: En un club de barrio se organizó un torneo de ajedrez. Realizar una función armarEquipos(participantes) que recibe la lista de participantes y arma una nueva lista compuesta de caracteres que representan los distintos equipos. Estos equipos serán armados con las 3 primeras letras en mayúscula del apellido de cada participante separado con un guión (“-“).
+
+Los participantes se toman de la lista de “participantes”.
+Ningún participante jugará consigo mismo.
+El orden en que se arman las duplas no importa, siempre dará la misma dupla resultante (“RIO-ALV” es igual que “ALV-RIO”). Para esta lista de participantes: participantes = [‘rio’, ‘alvarez’, ‘perez’, ‘sosa’, ‘martinez’] La lista de equipos resultantes deberá verse como se ejemplifica: [“RIO-ALV”,”RIO-PER”,”RIO-SOS”,”RIO-MAR”,”ALV-PER”,”ALV-SOS”,”ALV- MAR”,”PER-SOS”,”PER-MAR”,”SOS-MAR”]
+"""
+
 def  armarEquipos(participantes):
   duplas = []
   
