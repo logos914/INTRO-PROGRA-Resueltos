@@ -27,7 +27,7 @@ def  armarEquipos(participantes):
 
 # Método ultra corto
 def obtenerPrimerasTresLetras(cadena):
-  return cadena[-3:0]
+  return cadena[0:3]
 
 
 # Método recorriendo cadena y contando
